@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    color: dimgray;
+}
+
+.orange-highlight {
+    color: orange;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding: 10px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.top-banner {
+    background-image: url("./images/header-bg.png");
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 700px;
+    bottom: 150px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 700;
+}
+
+.dream-area {
+    background-image: url("./images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.work-section {
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.work-text {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-top: -250px;
+}
+
+.work-width img {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 3%;
+}
+
+
+.experience-area {
+    margin-top: -500px;
+    background-image: url("./images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-experience {
+    background-color: white;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 5px;
+    height: 40%;
+}
+
+#full_stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby_web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(47, 0, 255), rgb(71, 243, 255));
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+.client {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.email-link {
+    text-align: center;
+    background-color: #f90071;
+    width: 600px;
+    border: 15px solid #f90071;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 100px auto;
+}
+
+.email-link p,
+h3 {
+    color: white;
+}
+
+.bruce {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.founder {
+    text-align: center;
+    font-size: 13px;
+}
+
+.mail-section {
+    height: 460px;
+}
+
+footer {
+    background-image: url("./images/footer-bg.png");
+    background-repeat: no-repeat;
+}
